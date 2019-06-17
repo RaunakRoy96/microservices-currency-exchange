@@ -1,0 +1,7 @@
+package com.mindtree.currencyexchangeservice.service.impl;
+
+import com.mindtree.currencyexchangeservice.exception.CurrencyExchangeException;
+
+public class CurrencyExchangeNotFoundException extends CurrencyExchangeException {
+
+}

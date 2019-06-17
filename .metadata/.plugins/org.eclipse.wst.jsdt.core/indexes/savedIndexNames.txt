@@ -1,0 +1,5 @@
+INDEX VERSION 1.4+C:\microservices\currency_exchange\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1477143674.index
+19706685.index
+1871985630.index
+2258349313.index

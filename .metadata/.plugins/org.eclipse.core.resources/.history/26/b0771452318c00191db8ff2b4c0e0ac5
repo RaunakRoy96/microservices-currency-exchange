@@ -1,0 +1,17 @@
+package com.mindtree.currencyexchangeservice.service.impl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.mindtree.currencyexchangeservice.entity.CurrencyExchange;
+import com.mindtree.currencyexchangeservice.repository.CurrencyExchangeRepo;
+
+public class CurrencyExchangeServiceImpl {
+	
+	@Autowired
+	private CurrencyExchangeRepo currencyExchangeRepo;
+	
+	public CurrencyExchange getExchangeValue(String from, String to) {
+		return currencyExchangeRepo.findByFromCurrecyAndToCurrency(from, to).orElseThrow(()->  new CurrencyExchangeNotFoundException("Currencies could not be found"));
+	}
+
+}

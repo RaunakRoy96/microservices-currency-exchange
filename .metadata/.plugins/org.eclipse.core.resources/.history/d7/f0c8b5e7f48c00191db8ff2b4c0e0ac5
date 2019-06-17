@@ -1,0 +1,4 @@
+spring.application.name=limits-service
+eureka.client.serviceUrl.defaultZone=http://localhost:8761/eureka
+spring.cloud.config.uri=http://spring-cloud-config-server
+spring.profiles.active=default

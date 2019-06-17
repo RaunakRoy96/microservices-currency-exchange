@@ -1,0 +1,5 @@
+package com.mindtree.currencyconversionservice.dto;
+
+public class CurrencyConversionDto {
+
+}

@@ -1,0 +1,5 @@
+package com.mindtree.limitsservice.controller;
+
+public class LimitsServiceController {
+
+}

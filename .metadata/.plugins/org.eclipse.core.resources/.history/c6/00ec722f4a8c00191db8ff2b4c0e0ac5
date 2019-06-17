@@ -1,0 +1,7 @@
+package com.mindtree.currencyconversionservice.service.impl;
+
+import com.mindtree.currencyconversionservice.service.CurrencyExchangeService;
+
+public class CurrencyExchangeServiceImpl implements CurrencyExchangeService {
+
+}

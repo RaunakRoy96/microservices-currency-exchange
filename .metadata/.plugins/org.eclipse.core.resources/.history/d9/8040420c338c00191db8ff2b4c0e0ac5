@@ -1,0 +1,9 @@
+package com.mindtree.currencyexchangeservice.service;
+
+import com.mindtree.currencyexchangeservice.exception.CurrencyExchangeNotFoundException;
+
+public interface CurrencyExchangeService {
+
+	CurrencyExchangeService getExchangeValue(String from, String to) throws CurrencyExchangeNotFoundException;
+
+}

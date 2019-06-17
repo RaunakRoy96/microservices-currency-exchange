@@ -1,0 +1,8 @@
+package com.mindtree.currencyconversionservice.service;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public interface CurrencyExchangeService {
+
+}

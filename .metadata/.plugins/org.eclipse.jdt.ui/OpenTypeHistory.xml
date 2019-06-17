@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=currency-exchange-service/C:\/Users\/M1050843\/.m2\/repository\/org\/springframework\/data\/spring-data-jpa\/2.1.8.RELEASE\/spring-data-jpa-2.1.8.RELEASE.jar&lt;org.springframework.data.jpa.repository(JpaRepository.class[JpaRepository" modifiers="1537" timestamp="1559201614282"/>
+<typeInfo handle="=currency-exchange-service/C:\/Program Files\/Java\/jre1.8.0_101\/lib\/rt.jar&lt;java.lang(Exception.class[Exception" modifiers="33" timestamp="1559106782712"/>
+<typeInfo handle="=currency-exchange-service/src\/main\/java&lt;com.mindtree.currencyexchangeservice.exception{CurrencyExchangeException.java[CurrencyExchangeException" modifiers="1" timestamp="1560247830567"/>
+<typeInfo handle="=currency-conversion-service/src\/main\/java&lt;com.mindtree.currencyconversionservice.service{CurrencyExchangeService.java[CurrencyExchangeService" modifiers="513" timestamp="1560261114873"/>
+<typeInfo handle="=netflix-zuul-api-gateway-server/C:\/Users\/M1050843\/.m2\/repository\/com\/netflix\/zuul\/zuul-core\/1.3.1\/zuul-core-1.3.1.jar&lt;com.netflix.zuul(ZuulFilter.class[ZuulFilter" modifiers="1057" timestamp="1559910798513"/>
+</typeInfoHistroy>

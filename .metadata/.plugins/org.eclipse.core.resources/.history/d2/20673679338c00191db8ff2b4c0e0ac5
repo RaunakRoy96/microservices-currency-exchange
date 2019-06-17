@@ -1,0 +1,5 @@
+package com.mindtree.currencyexchangeservice.controller;
+
+public class CurrencyExchangeController {
+
+}

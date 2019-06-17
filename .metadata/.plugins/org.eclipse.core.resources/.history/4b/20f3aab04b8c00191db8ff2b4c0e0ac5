@@ -1,0 +1,22 @@
+package com.mindtree.currencyconversionservice.service.impl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.core.env.Environment;
+
+import com.mindtree.currencyconversionservice.entity.CurrencyConversion;
+import com.mindtree.currencyconversionservice.service.CurrencyExchangeService;
+
+public class CurrencyExchangeServiceImpl implements CurrencyExchangeService {
+	
+	@Autowired
+	private Environment environment;
+	
+	@Override
+	public CurrencyConversion getCalculatedValue(CurrencyConversion currencyExchange) {
+		
+		currencyExchange.setExchangeValue(currencyExchange.getExchangeValue() * currencyExchange.getTotalCalculatedAmount());
+		currencyExchange.setPort(Integer.parseInt(environment.getProperty("local.server.port")));
+		return currencyExchange;
+	}
+
+}
