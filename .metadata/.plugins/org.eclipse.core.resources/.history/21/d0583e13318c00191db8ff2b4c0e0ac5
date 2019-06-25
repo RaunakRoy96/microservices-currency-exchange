@@ -1,9 +1,0 @@
-package com.mindtree.currencyexchangeservice.exception;
-
-public class CurrencyExchangeException {
-
-	public CurrencyExchangeException() {
-		// TODO Auto-generated constructor stub
-	}
-
-}

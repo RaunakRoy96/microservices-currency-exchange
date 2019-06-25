@@ -1,5 +1,0 @@
-package com.mindtree.currencyconversionservice.config;
-
-public interface CurrencyExchangeServiceProxy {
-
-}

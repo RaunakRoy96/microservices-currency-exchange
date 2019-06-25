@@ -1,7 +1,0 @@
-package com.mindtree.currencyexchangeservice.repository;
-
-import org.springframework.data.jpa.repository.JpaRepository;
-
-public interface CurrencyExchangeRepo extends JpaRepository<T, ID> {
-
-}
